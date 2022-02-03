@@ -23,7 +23,7 @@ The communication between the components is done through protocols. Each compone
 The responsibility of the view is to send the user actions to the Interactor and display the data in the application user interface using the view model received from presenter layer.
 
 ### Interactor: 
-This is the backbone of an application as it contains the business logic. It calls the backend service / AWS to get the JSON response. Interactor calls core network related library comprised with commands to execute the service API and pass the response model to Presenters to build the View Models. 
+This is the backbone of an application as it contains the business logic. It calls the backend service to get the JSON response. Interactor calls core network related library comprised with commands to execute the service API and pass the response model to Presenters to build the View Models. 
 
 ### Presenter: 
 Its responsibility is to get the response model received from the interactor and forms the view model to render the data in the application user interface. it sends the view model to the view as UI expects to show. 
