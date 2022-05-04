@@ -8,7 +8,7 @@ The NYCSchools mobile project is built on the MVVM architecture is based on sing
 ####	1) View
 ####	2) Interactor
 ####	3) Presenter
-####	4) Model (Request models, Response models and View Models)
+####	4) Entity (Request models, Response models and View Models)
 ####	5) Router
 ####	6) Worker/Helper / Extension (Utility)
 ####	7) Core/Network (Utility)
@@ -28,7 +28,7 @@ This is the backbone of an application as it contains the business logic. It cal
 ### Presenter: 
 Its responsibility is to get the response model received from the interactor and forms the view model to render the data in the application user interface. it sends the view model to the view as UI expects to show. 
 
-### Model: 
+### Entity: 
 It contains basic model objects conforming the codable protocol. Model object can be Request, Response or View Model.
 
 ### Router: 
